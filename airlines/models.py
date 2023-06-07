@@ -25,7 +25,3 @@ class Plane(models.Model):
 
     def __str__(self) -> str:
         return self.model_name
-
-
-class Flight(models.Model):
-    pass
